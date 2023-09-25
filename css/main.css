@@ -99,7 +99,15 @@ a:focus {
  *
  * ------------------------------------------------------------------- */
 
-h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
+h1 {
+  font-family: 'Noto Serif Display', serif;
+  color: #151515;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  margin-bottom: 2.4rem;
+ }
+
+h2, h3, h4, h5, h6, .h02, .h03, .h04, .h05, .h06 {
   font-family: "montserrat-regular", sans-serif;
   color: #151515;
   font-style: normal;
@@ -2087,11 +2095,16 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
 
 #pricing h1 {
   margin-bottom: 3.6rem;
+  font-family: 'Noto Serif Display', serif;
+  font-weight: 700;
+
 }
 
 .pricing-intro {
   padding-top: .6rem;
   align-items: center;
+  font-family: 'Noto Serif Display', serif;
+  font-weight: 100;
   
 }
 
@@ -2104,6 +2117,15 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   border-radius: 5px;
   padding: 4.8rem 4rem 5.4rem;
   margin-bottom: 4.8rem;
+  height: 700px;
+}
+
+.precio-bottom {
+  margin-top: 140px;
+}
+
+.pre-bot {
+  margin-top: 90px;
 }
 
 .pricing-table .plan-block:after {
@@ -2112,7 +2134,13 @@ html[data-useragent*='MSIE 10.0'] .home-scrolldown,
   clear: both;
 }
 
-.pricing-table .plan-block .plan-block-title {
+.plan-block-title {
+  font-family: not;
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-table .plan-block {
   font-family: "montserrat-regular", sans-serif;
   font-size: 2.4rem;
   margin-bottom: 3.6rem;
